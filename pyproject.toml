@@ -22,7 +22,7 @@ keywords = [
 python = ">=3.8.1,<4.0.0"
 newrelic = { git = "https://github.com/newrelic/newrelic-python-agent.git", rev = "c7d3fbb372ed6327694c77480e3fa44fdc658d0e" }
 openai = ">=0.8,<2.0"
-tiktoken = "^0.5.1"
+tiktoken = ">=0.5.1, <=0.7.0"
 
 [tool.poetry.dev-dependencies]
 pytest = "^7.2.1"
